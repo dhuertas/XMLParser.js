@@ -112,7 +112,7 @@ var dom = parser.load(xmlString);
 dom.getElementsByTagName("book").forEach(function(book) {
 
     console.log(book.getElementsByTagName("title")[0].innerText);
-    // Outputs: Game Of Thrones
+    // Outputs: A Game Of Thrones
 
     console.log(book.getElementsByTagName("author")[0].innerText);
     // Outputs: George R. R. Martin
